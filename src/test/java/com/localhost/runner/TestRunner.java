@@ -11,7 +11,8 @@ import org.junit.runner.RunWith;
         features = "src/test/java/resources/featurefile",
         glue = "com/localhost",
         plugin = {"pretty", "html:target/cucumber-report/cucumber.html",
-                "com.cucumber.listener.ExtentCucumberFormatter:target/Extent_Reports/report.html"
+                "com.cucumber.listener.ExtentCucumberFormatter:target/Extent_Reports/report.html",
+                "rerun:target/failedrerun.txt"
         }
 //  , tags = "@t1"
 )

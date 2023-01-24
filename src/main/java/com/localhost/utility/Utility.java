@@ -201,6 +201,10 @@ public class Utility extends ManageDriver {
     public void switchToParentWindow(String parentWindowId) {
         driver.switchTo().window(parentWindowId);
     }
+    public void switchToiFrame(String iFrameId){
+        driver.switchTo().frame(iFrameId);
+    }
+
 
     /**
      * This method will find that we switch to right window
