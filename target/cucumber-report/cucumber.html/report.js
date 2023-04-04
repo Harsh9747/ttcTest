@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 6716317700,
+  "duration": 28513331200,
   "status": "passed"
 });
 formatter.scenario({
@@ -33,47 +33,29 @@ formatter.step({
   "name": "I click on explore now button",
   "keyword": "And "
 });
-formatter.step({
-  "line": 8,
-  "name": "I should verify \"Explore our 9 travel styles below to begin your journey\" title on travel style page",
-  "keyword": "Then "
-});
 formatter.match({
   "location": "MyStepdefs.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 351667500,
+  "duration": 399077900,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.iClickOnAcceptCookies()"
 });
 formatter.result({
-  "duration": 165915400,
+  "duration": 198095700,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.iClickOnExploreNowButton()"
 });
 formatter.result({
-  "duration": 5146887900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Explore our 9 travel styles below to begin your journey",
-      "offset": 17
-    }
-  ],
-  "location": "MyStepdefs.iShouldVerifyTitleOnTravelStylePage(String)"
-});
-formatter.result({
-  "duration": 265649000,
+  "duration": 2766826400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 799751800,
+  "duration": 1194447400,
   "status": "passed"
 });
 });
