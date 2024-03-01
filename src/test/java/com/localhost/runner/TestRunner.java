@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
                 "com.cucumber.listener.ExtentCucumberFormatter:target/Extent_Reports/report.html",
                 "rerun:target/failedrerun.txt"
         }
-//  , tags = "@t1"
+//  , tags = "my first change"
 )
 
 
@@ -24,11 +24,11 @@ public class TestRunner {
         String projectPath = System.getProperty("user.dir");
         String reportConfigPath = projectPath + "/src/test/java/resources/extentreport/extent-config.xml";
         Reporter.loadXMLConfig(reportConfigPath);
-        Reporter.setSystemInfo("User Name", System.getProperty("user.name"));
-        Reporter.setSystemInfo("Time Zone", System.getProperty("user.timezone"));
-        Reporter.setSystemInfo("Machine", "Windows 10" + "64 Bit");
-        Reporter.setSystemInfo("Selenium", "3.141.59");
-        Reporter.setSystemInfo("Maven", "3.5.9");
-        Reporter.setSystemInfo("Java Version", "1.8.0_151");
+        // Reporter.setSystemInfo("User Name", System.getProperty("user.name"));
+        // Reporter.setSystemInfo("Time Zone", System.getProperty("user.timezone"));
+        // Reporter.setSystemInfo("Machine", "Windows 10" + "64 Bit");
+        // Reporter.setSystemInfo("Selenium", "3.141.59");
+        // Reporter.setSystemInfo("Maven", "3.5.9");
+        // Reporter.setSystemInfo("Java Version", "1.8.0_151");
     }
 }
